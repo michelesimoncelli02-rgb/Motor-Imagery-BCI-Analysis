@@ -81,6 +81,6 @@ Perdikis S et al. The Cybathlon BCI race: Successful longitudinal mutual learnin
 
 ## Authors
 
-Michele Simoncelli
-
-University of Padova
+**Michele Simoncelli**  
+Department of Information Engineering  
+**University of Padova**
