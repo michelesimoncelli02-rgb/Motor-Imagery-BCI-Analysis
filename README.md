@@ -44,6 +44,21 @@ project/
 └── README.md
 ```
 
+## Instructions for running the scripts
+- place the 'dataset' and the (provided) 'functions' folders in the same parent folder
+
+- when in Matlab, enter in the parent folder where you have placed 'dataset' and 'functions'
+
+- add the paths for biosig and eeglab packages
+
+- now you can run the 'main_data_processing.m' script, which exploits the customized function 'process_all_gdf.m' function, which is inside the 'functions' folder; it creates a new folder, 'processed_dataset' that will be used in the following analysis
+
+- run 'main_grand_average.m' to see the results of the Grand Average Analysis
+
+- run 'main_calibration.m' to perform the training on the offline files for each subject; the calibrated decoder and the selected feature of each subject are stored inside its sub-folder in the 'processed_dataset' folder
+
+- run 'main_evaluation.m' to test the model of each subject on the online files; a display classification report is printed in the Command Window
+
 ## Requirements
 
 - MATLAB
